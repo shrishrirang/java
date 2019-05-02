@@ -79,7 +79,7 @@
                         <image>
                             <name>appsvc-${project.artifactId}</name>
                             <run>
-                                <ports>8080:8080</ports>
+                                <ports>8080:80</ports>
                                 <cmd>
                                     <shell>""</shell>
                                 </cmd>

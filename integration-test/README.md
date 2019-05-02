@@ -4,7 +4,7 @@ image used to deliver Java SE support on Azure App Service works for a different
 set of Java web frameworks.
 
 The projects here also provide indication on how to set up the different
-frameworks to use the $PORT configuration dynamically injected by App Service.
+frameworks to use the 80 configuration dynamically injected by App Service.
 
 ## Run
 To run the tests, make sure that Docker is installed locally, and that the image `appsvc/java:8-jre8_0000000000` exists locally (or latest from Docker Hub will be used).

@@ -6,7 +6,7 @@ import static spark.Spark.port;
 public class SparkStart {
 
     public static void main(String args[]) {
-        port(8080);
+        port(80);
         get("/", (req, res) -> {
             res.type("text/plain");
             return "Hello App Service";
