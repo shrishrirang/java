@@ -1,4 +1,4 @@
-FROM appsvc/java:8-jre8_0000000000
+FROM appsvctest/java:8-jre8_candidate
 
 ENV THORNTAIL_HTTP_PORT 80
 

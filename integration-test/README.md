@@ -7,7 +7,7 @@ The projects here also provide indication on how to set up the different
 frameworks to use the 80 configuration dynamically injected by App Service.
 
 ## Run
-To run the tests, make sure that Docker is installed locally, and that the image `appsvc/java:8-jre8_0000000000` exists locally (or latest from Docker Hub will be used).
+To run the tests, make sure that Docker is installed locally, and that the image `appsvctest/java:8-jre8_candidate` exists locally (or latest from Docker Hub will be used).
 
 Then run the following Maven command in the
 `integration-test` folder:
