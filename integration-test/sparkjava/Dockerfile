@@ -1,3 +1,3 @@
-FROM appsvctest/java:8-jre8_candidate
+FROM mcr.microsoft.com/azure-app-service/java:8-jre8_stage
 
 COPY target/${project.build.finalName}.jar /home/site/wwwroot/app.jar

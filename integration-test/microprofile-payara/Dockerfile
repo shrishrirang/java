@@ -1,4 +1,4 @@
-FROM appsvctest/java:8-jre8_candidate
+FROM mcr.microsoft.com/azure-app-service/java:8-jre8_stage
 
 ENV payaramicro_port 80
 
